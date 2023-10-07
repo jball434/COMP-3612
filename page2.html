@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="variables-palette-7.css">
+    <title>Page 2 - Painting Form</title>
+</head>
+<body>
+    <div class="header-container">
+        <h1 style="text-align: center;">Advance Artwork Search</h1>
+    </div>
+    <div class="content-container">
+        <div>
+            <input type="text" id="search-field" name="search-field" placeholder="Portrait">
+            <label for="subject">&nbsp;&nbsp;Subject:</label>
+            <input type="radio" id="history" name="subject" value="History"> History
+            <input type="radio" id="person" name="subject" value="Person"> Person
+            <input type="radio" id="landscape" name="subject" value="Landscape"> Landscape &nbsp;&nbsp;
+            <select id="genre" name="genre">
+                <option value="0">Classical</option>
+                <option value="1">Baroque</option>
+                <option value="2">Renaissance</option>
+                <option value="3">Realism</option>
+            </select>
+        </div>
+        <table style="margin-top: 10px;">
+            <thead>
+                <tr><p style="text-align: center; background-color: #186FAF; font-size: 30px;" ><b>Paintings</b></p></tr>
+                <tr style="background-color: #84C5F4;">
+                    <th class="checkbox-column"></th>
+                    <th class="logo-column"></th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Year</th>
+                    <th>Genre</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="checkbox-column"><input type="checkbox" id="0"></th>
+                    <th class="logo-column"><img src="./images/125010.jpg" alt="#" style="width: 100px; height: 100px;"></th>
+                    <th>Portrait of Alida Christina Assink</th>
+                    <th>Kruseman, Jan</th>
+                    <th>1833</th>
+                    <th>Realism</th>
+                    <th>
+                        <div class="column">
+                            <img src="./images/edit.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/delete.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/archive.png" alt="#">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="checkbox-column"><input type="checkbox" id="0"></th>
+                    <th class="logo-column"><img src="./images/125010.jpg" alt="#" style="width: 100px; height: 100px;"></th>
+                    <th>Windmill at Wijk bij Duurstede</th>
+                    <th>Jacob Van</th>
+                    <th>1870</th>
+                    <th>Dutch Golden Age</th>
+                    <th>
+                        <div class="column">
+                            <img src="./images/edit.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/delete.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/archive.png" alt="#">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="checkbox-column"><input type="checkbox" id="0"></th>
+                    <th class="logo-column"><img src="./images/125020.jpg" alt="#" style="width: 100px; height: 100px;"></th>
+                    <th>Portrait of Willian N, the King of Netherlands</th>
+                    <th>Kruseman, Jan</th>
+                    <th>1839</th>
+                    <th>Realism</th>
+                    <th>
+                        <div class="column">
+                            <img src="./images/edit.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/delete.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/archive.png" alt="#">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="checkbox-column"><input type="checkbox" id="0"></th>
+                    <th class="logo-column"><img src="./images/125010.jpg" alt="#" style="width: 100px; height: 100px;"></th>
+                    <th>Three Gins from the Amsterdam Orphanage</th>
+                    <th>SchwartTherese</th>
+                    <th>1885</th>
+                    <th>Realism</th>
+                    <th>
+                        <div class="column">
+                            <img src="./images/edit.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/delete.png" alt="#">
+                        </div>
+                        <div class="column">
+                            <img src="./images/archive.png" alt="#">
+                        </div>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <select>
+                <option value="1">Archive</option>
+                <option value="2">Edit</option>
+                <option value="3">Delete</option>
+                <option value="4">Collection</option>
+            </select>
+            <button class="apply-button">Apply to All</button>
+        </div>
+    </div>
+</body>
+</html>
